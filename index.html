@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header | Main | Footer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="header-logo">
+                <p>Oman's Portfolio</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/">About</a>
+                </li>
+                <li>
+                    <a href="/">Services</a>
+                </li>
+                <li>
+                    <a href="/">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="main-container" id="main-container">
+            <section class="section-left">
+                <p>Hi, I am <span class="purple">Oman Chaudhary</span></p>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+
+                <div class="btn">
+                    <button class="button">Download CV</button>
+                    <button class="button">Visit Github</button>
+                </div>
+
+            </section>
+
+
+            <section class="section-right">
+
+                <img src="1.png" alt="Developer PNG">
+            </section>
+
+        </div>
+    </main>
+    <hr class="horizontal-line">
+    <footer>
+        <div class="footer-container" id="footer-container">
+            <h6> Copyright &copy; www.omansprotfolio.com | All Right Reserved</h6>
+
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web-Developer.', 'IT Student of KU.', 'Ethical Hacker.'],
+          typeSpeed: 45,
+        });
+      </script>
+</body>
+</html>

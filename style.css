@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Started header and navigation bar*/
+
+header nav{
+
+    background-color: rgb(121 121 225);
+    height:10vh;
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 0.5px solid white;
+
+}
+
+header nav p{
+
+    font-size: 2rem;
+
+}
+
+header nav p:hover{
+
+    cursor: pointer;
+    font-size: 2.02rem;
+
+}
+
+header nav ul{
+
+    display: flex;
+
+}
+
+header nav ul li{
+
+    list-style: none;
+    margin: 0px 7px;
+    padding: 5px 12px;
+    text-transform: uppercase;
+    font-size: 1.01rem;
+
+}
+
+header nav ul li a{
+
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+header nav ul li:hover{
+
+    border:1px solid white;
+    border-radius: 20px;
+    font-size: 1.03rem;
+
+}
+
+/* Started main container*/
+
+.main-container{
+
+    height: 80vh;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(140, 140, 249);
+}
+
+.main-container .section-left .purple{
+
+    color:purple;
+    font-size: 2rem;
+}
+
+.main-container .section-left p,div,span{
+
+    font-size: 2rem;
+}
+
+.main-container .section-left .button{
+
+    background-color: rgb(140, 140, 249);
+    margin:30px 0px;
+    padding:8px 20px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    border:1px solid white
+
+}
+.main-container .section-left .button:hover{
+
+    font-size: 0.9rem;
+    color:rgb(96, 96, 189);
+
+}
+
+.main-container .section-right img{
+
+    height:400px;
+
+}
+
+/* Started Footer*/
+
+footer{
+
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .horizontal-line{
+
+    margin: auto;
+    background-color: rgb(32, 25, 25);
+    height:3.5px;
+    width:80%;
+    position: relative;
+    top:45px
+} */
+
+footer{
+
+    background-color: rgb(121 121 225);
+}
+
+
+
+
